@@ -45,10 +45,7 @@ namespace Congratulator.DataAccess.Repositories
                 return filtered;
             }
         }
-
         
-        
-
         public async Task<Guid> Create(Birthday birthday)
         {
             var birthdayEntity = new Birthday
